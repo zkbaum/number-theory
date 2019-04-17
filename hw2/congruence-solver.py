@@ -6,10 +6,10 @@
 DEBUG =  False
 
 def f(x):
-	return x**2
+	return x*x
 
-p = 5
-target = -1
+p = 653
+target = 13
 
 ##### END: CONFIG #####
 
