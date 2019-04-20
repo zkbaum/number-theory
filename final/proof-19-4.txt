@@ -1,0 +1,24 @@
+6k+1
+12k+1
+18k+1
+n = (6k+1)(12k+1)(18k+1) = (72k^2 +18k + 1)(18k+1) = 1296k^3 + 2k^2 + 18k + 72k^2 +18k + 1 = 1296k^3 + 396k^2 + 36k + 1
+
+note: (12k+1)(18k+1) = 216k^2 + 30k + 1
+
+for each prime, show p^2 does not divide n
+	(6k+1)^2 does not divide n
+		since 6k+1 does not divide(12k+1)(18k+1) = 216k^2 + 30k + 1
+
+note 
+n-1 = 1296k^3 + 396k^2 + 36k
+n-1 = 6k(316k^2 + 66k + 6)
+n-1 = 12k(108^2 + 33k + 3)
+n-1 = 18k(72^2 + 22k + 2)
+
+for each prime, show p-1 divides n-1
+	6k, 12k, and 18k all divide n-1
+
+Thus n is a carmichael number
+
+
+	
